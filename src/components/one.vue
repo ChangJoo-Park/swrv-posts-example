@@ -1,5 +1,5 @@
 <template>
-  <div class="grid grid-cols-3">
+  <div class="grid grid-cols-1 lg:grid-cols-3 xl:grid-cols-4">
     <list-item
       v-for="post in data"
       :key="post.id"
